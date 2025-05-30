@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background: #f7fafc;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #23272f;
+}
+
+.container {
+  max-width: 700px;
+  margin: 42px auto;
+  padding: 28px 22px 40px 22px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px #0001, 0 1.5px 8px #90caf955;
+  border: 1px solid #e7ebee;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #2196f3;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.feed-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feed-item {
+  background: #f8fbfd;
+  border-radius: 13px;
+  margin-bottom: 22px;
+  padding: 20px 18px;
+  box-shadow: 0 2px 12px #90caf955;
+  border: 1px solid #e0eaef;
+  transition: box-shadow 0.18s, border 0.18s;
+}
+
+.feed-item:hover {
+  box-shadow: 0 4px 24px #90caf980;
+  border: 1.5px solid #90caf9;
+}
+
+.feed-item h2 {
+  margin: 0 0 4px 0;
+  font-size: 1.13rem;
+  color: #1976d2;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.pubdate {
+  color: #789;
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+}
+
+.description {
+  margin: 10px 0 14px 0;
+  color: #4a5a6a;
+  font-size: 1.03rem;
+}
+
+.magnet-btn {
+  background: linear-gradient(90deg, #42a5f5 60%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 22px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin-top: 8px;
+  box-shadow: 0 1.5px 6px #90caf940;
+  transition: background 0.18s, box-shadow 0.16s;
+  outline: none;
+}
+.magnet-btn:hover {
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  box-shadow: 0 4px 16px #42a5f522;
+}
+
+.no-magnet {
+  color: #b55;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 12px 2vw 30px 2vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.post-link a {
+  color: #1976d2;
+  text-decoration: none;      /* NESSUNA sottolineatura */
+  transition: color 0.18s;
+  font-weight: 600;
+}
+.post-link a:hover {
+  color: #0d47a1;
+  text-decoration: none; /* (facoltativo: sottolinea solo al passaggio mouse) */
+}
